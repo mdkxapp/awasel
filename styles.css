@@ -79,3 +79,4 @@ main{height:calc(100% - var(--app-header-height));height:calc(100dvh - var(--app
   .actions{gap:6px;padding-top:6px}
   #notice{margin-top:5px;font-size:12px}
 }
+@media(max-width:600px){.recent-events{grid-template-columns:1fr}}
