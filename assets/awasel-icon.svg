@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AWASEL">
+  <defs>
+    <linearGradient id="a" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#83e5d2"/>
+      <stop offset="1" stop-color="#c4a445"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#a)">
+    <rect x="5" y="7" width="7" height="7" rx="2" transform="rotate(-12 8.5 10.5)" opacity=".45"/>
+    <rect x="17" y="5" width="7" height="7" rx="2" transform="rotate(8 20.5 8.5)" opacity=".58"/>
+    <rect x="29" y="7" width="7" height="7" rx="2" opacity=".72"/>
+    <rect x="41" y="5" width="7" height="7" rx="2" transform="rotate(-8 44.5 8.5)" opacity=".58"/>
+    <rect x="53" y="8" width="7" height="7" rx="2" transform="rotate(12 56.5 11.5)" opacity=".45"/>
+
+    <rect x="7" y="18" width="8" height="8" rx="2" transform="rotate(7 11 22)" opacity=".58"/>
+    <rect x="18" y="18" width="8" height="8" rx="2" opacity=".78"/>
+    <rect x="28" y="18" width="8" height="8" rx="2" opacity=".9"/>
+    <rect x="38" y="18" width="8" height="8" rx="2" opacity=".78"/>
+    <rect x="49" y="18" width="8" height="8" rx="2" transform="rotate(-7 53 22)" opacity=".58"/>
+
+    <rect x="8" y="28" width="8" height="8" rx="2" opacity=".72"/>
+    <rect x="18" y="28" width="8" height="8" rx="2" opacity=".9"/>
+    <rect x="28" y="28" width="8" height="8" rx="2"/>
+    <rect x="38" y="28" width="8" height="8" rx="2" opacity=".9"/>
+    <rect x="48" y="28" width="8" height="8" rx="2" opacity=".72"/>
+
+    <rect x="7" y="39" width="8" height="8" rx="2" transform="rotate(-7 11 43)" opacity=".58"/>
+    <rect x="18" y="38" width="8" height="8" rx="2" opacity=".78"/>
+    <rect x="28" y="38" width="8" height="8" rx="2" opacity=".9"/>
+    <rect x="38" y="38" width="8" height="8" rx="2" opacity=".78"/>
+    <rect x="49" y="39" width="8" height="8" rx="2" transform="rotate(7 53 43)" opacity=".58"/>
+
+    <rect x="5" y="51" width="7" height="7" rx="2" transform="rotate(12 8.5 54.5)" opacity=".45"/>
+    <rect x="17" y="52" width="7" height="7" rx="2" transform="rotate(-8 20.5 55.5)" opacity=".58"/>
+    <rect x="29" y="50" width="7" height="7" rx="2" opacity=".72"/>
+    <rect x="41" y="52" width="7" height="7" rx="2" transform="rotate(8 44.5 55.5)" opacity=".58"/>
+    <rect x="53" y="50" width="7" height="7" rx="2" transform="rotate(-12 56.5 53.5)" opacity=".45"/>
+  </g>
+</svg>
