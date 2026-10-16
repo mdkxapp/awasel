@@ -34,3 +34,8 @@ aside,.calendar{-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
 .modal{padding:max(12px,env(safe-area-inset-top)) max(12px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left))}
 .modal section{max-height:calc(100dvh - 24px)}
 @media(max-width:900px){main{padding:10px max(10px,env(safe-area-inset-right)) max(10px,env(safe-area-inset-bottom)) max(10px,env(safe-area-inset-left))}.panel{min-height:0}body:not(.created) aside{height:100%}.created main{grid-template-rows:minmax(112px,22dvh) minmax(0,1fr)}.workspace,.answer-form,.calendar{min-height:0}.calendar{padding-bottom:max(2px,env(safe-area-inset-bottom))}}
+
+/* Keep the app header below the iPhone status bar in Home Screen mode. */
+:root{--app-header-height:calc(48px + env(safe-area-inset-top))}
+header{height:var(--app-header-height);padding-top:calc(3px + env(safe-area-inset-top));padding-bottom:3px}
+main{height:calc(100% - var(--app-header-height));height:calc(100dvh - var(--app-header-height))}
