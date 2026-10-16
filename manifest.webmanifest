@@ -1,0 +1,14 @@
+{
+  "name": "AWASEL",
+  "short_name": "AWASEL",
+  "description": "日程を軽やかに合わせる、MDKΨの調整ツール",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1e2322",
+  "theme_color": "#1e2322",
+  "icons": [
+    { "src": "assets/awasel-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "assets/awasel-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
