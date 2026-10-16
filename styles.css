@@ -20,7 +20,7 @@ header{gap:16px;padding-block:3px}.home-button{display:flex;align-items:center;p
 .mdkx-link:hover .brand-logo{filter:brightness(1.15)}
 .mdkx-link .brand-logo{margin-left:0}
 .mdkx-mobile{display:none}
-@media(max-width:900px){.mdkx-link .mdkx-word{display:none}.mdkx-link .mdkx-mobile,.mdkx-link b{display:block}.mdkx-link{gap:5px;padding:4px}.mdkx-link .brand-logo{width:44px}}
+@media(max-width:900px){.mdkx-link .mdkx-word,.mdkx-link .mdkx-mobile,.mdkx-link b{display:none}.mdkx-link{gap:5px;padding:4px}.mdkx-link .brand-logo{width:44px}}
 
 /* iPhone / iPad touch and dynamic viewport fixes */
 html{height:100%;overflow:hidden}
